@@ -19,19 +19,23 @@
 #info p{
     font-size: 15px;
 }
-#info p a{}
-#info p span{
+#info p a{
     color: blue;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#info p span{
+    color: red;
     font-size: 15px;
 }
 #productHome{}
 .productHome__title{
-    background-color: black;
+    background-color: #222326;
     width: 100%;
 }
 .productHome__heading{
     clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
-    background-color: blue ;
+    background-color: #3b84b0 ;
     width: 30%;
     
 }
@@ -39,6 +43,7 @@
     color: #f2f1f1;
     font-size: 16px;
     text-transform: uppercase;
+    text-align: center;
 }
 .productHome__link{
     text-align: right;
@@ -53,12 +58,51 @@
     color: white;
  
 }
-.productHome__list{
+.productHome__list {
     gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
+ }
+.productHome__list .product {
+   
+   
 }
-.productImage{}
+
+.product h4 {
+   
+   color: white;
+   background-color: black;
+   margin-top: auto;
+   font-size: 15px;
+   text-transform: uppercase;
+   font-weight: 40;
+   text-align: center;
+   padding: 20px;
+}
+
+.product a{
+ text-decoration: none;
+ background-color: #3b84b0;
+}
+
+.productImage {
+   
+}
+
+.productImage img {
+   vertical-align: middle;
+   width: 100%;
+   padding: 0px;
+}
 
 
+.product h4:hover {
+   background-color: #3b84b0;
+   
+}
+
+.products h4.active {
+   background-color: #3b84b0;
+   
+}
