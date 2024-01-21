@@ -1,25 +1,193 @@
-footer{}
-.footer__top{}
-.footerTop_aboutUs{}
-.footerTop_aboutUs h3{}
-.footerTop_aboutUs p{}
-.footerTop_aboutUs ul{}
-.footerTop_aboutUs ul li{}
-.footerTop_aboutUs ul li span{}
-.footerTop_sitemap{}
-.footerTop_sitemap h3{}
-.footerTop_sitemap ul
-.footerTop_sitemap ul li{}
-.footerTop_sitemap u li a{}
-.footerTop__products{}
-.footerTop__products h3{}
-.footerTop__products ul{}
-.footerTop__products ul li{}
-.footerTop__products ul li a{}
-.footerTop__fanpage{}
-.footerTop__fanpage h3{}
-.footerTop__fanpageImage{}
-.footerTop__fanpageImage a{}
-.footer__bottom{}
-.footerBottom__left{}
-.footerBottom__right{}
+footer {
+    margin-top: 20px;
+    
+}
+
+.footer__top {
+    background-color: #222326;
+    display: flex;
+}
+
+.footerTop__aboutUs {
+    
+    width: 30%;
+}
+
+.footerTop__aboutUs h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.footerTop__aboutUs p {
+    width: 75%;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 12px;
+    color: white;
+}
+
+#footerTopAboutUs__info {
+    padding: 0px;
+}
+
+#footerTopAboutUs__info li {
+    display: flex;
+    font-size: 12px;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+
+
+#footerTopAboutUs__info li i {
+    font-size: 12px;
+}
+
+#footerTopAboutUs__info li span:first-child {
+    width: 7%;
+    color: yellow;
+    
+}
+
+#footerTopAboutUs__info li span {
+    
+    color: white;
+    display: block;
+   
+}
+
+#footerTopAboutUs__socialNetwork {
+    padding: 0px;
+    display: flex;
+}
+
+
+#footerTopAboutUs__socialNetwork li {
+    margin: 0px 10px;
+    list-style: none;
+
+
+}
+
+#footerTopAboutUs__socialNetwork li a {
+    color: white;
+}
+
+.footerTop__sitemap {
+
+    width: 20%;
+}
+
+.footerTop__sitemap h3 {
+    
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.footerTop__sitemap ul {
+    list-style: none;
+    padding-left: 0px;
+
+    color: white;
+}
+
+.footerTop__sitemap ul li {
+    color: yellow;
+    margin: 20px 0px;
+    
+}
+
+.footerTop__sitemap ul li::before {
+    content:"\A";
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background: yellow;
+    display:inline-block;
+    margin-right: 7px;
+}
+
+.footerTop__sitemap ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.footerTop__products {
+    width: 20%;
+}
+
+.footerTop__products h3 {
+    
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.footerTop__products ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footerTop__products ul li {
+    color: yellow;
+    margin: 20px 0px;
+
+}
+
+.footerTop__products ul li::before {
+    content:"\A";
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background: yellow;
+    display:inline-block;
+    margin-right: 7px;
+
+}
+
+.footerTop__products ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+
+.footerTop__fanpage {
+    width: 30%;
+}
+
+.footerTop__fanpage h3 {
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.footerTopFanpage__image {}
+
+.footerTopFanpage__image img {}
+
+.footer__bottom {
+    padding: 20px 0px;
+    background-color: #1a1c1f;
+
+}
+
+.footerBottom__left {
+
+    width: 50%;
+    color: white;
+}
+
+.footerBottom__right {
+
+    margin-right: 40px;
+    text-align: right;
+    width: 50%;
+    color: white;
+}
